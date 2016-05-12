@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Prosoft Calendar Programming Exercise</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/calendar_page.css" />
+    <link rel="stylesheet" href="styles/prosoft_calendar.css" />
+    <script src="Scripts/jquery-2.2.3.min.js"></script>
+    <!--<link rel="stylesheet" href="Content/themes/jquery-ui.css">-->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="Scripts/jquery-ui-1.11.4.min.js"></script>
+    <script src="Scripts/handlebars.min.js"></script>
+    <script src="Scripts/exercise.js"></script>
+    <script src="Scripts/calendarTemplates.js"></script>
+</head>
+<body>
+    <h1>Prosoft Calendar Programming Exercise</h1>
+    <form id="frmSchedule">
+        <div class="inputLine">
+            <label for="txtStartDate">Start Date:</label>
+            <input id="txtStartDate" type="text" />
+        </div>
+        <div class="inputLine">
+            <label for="">Number of Days:</label>
+            <input id="txtNumberDays" type="text" />
+        </div>
+        <div class="inputLine">
+            <label for="">Country Code:</label>
+            <input id="txtCountryCode" type="text" />
+        </div>
+        <input class="submitButton" type="submit" value="Process" />
+    </form>
+    <div id="content">
+        <div class="calendarsSection">
+        </div>
+    </div>
+</body>
+</html>

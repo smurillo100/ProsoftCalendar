@@ -1,0 +1,33 @@
+﻿.monthCalendar {
+    margin-bottom: 20px;
+}
+
+.monthCalendar table {
+    width: 245px;
+    font-size: 10pt;
+}
+
+.monthCalendar table td {
+    text-align: center;
+}
+
+.monthCalendar table .monthLabelRow {
+    background-color: #eef7da;
+    font-weight: bold;
+}
+
+.monthCalendar table .datesRow td {
+    width: 35px;
+}
+
+.monthCalendar table .datesRow td:nth-child(1).active, .monthCalendar table .datesRow td:nth-child(7).active {
+    background-color: #f2fa35;
+}
+
+.monthCalendar table .datesRow td.active {
+    background-color: #c6dc92;
+}
+
+.monthCalendar table .inactive {
+    background-color: #cacac8; 
+}

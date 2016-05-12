@@ -1,0 +1,34 @@
+﻿body {
+    margin: 10px 0px 0px 40px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form .inputLine {
+    margin-top: 10px;
+}
+
+form .inputLine input {
+    width: 200px;
+}
+
+form .inputLine #txtNumberDays {
+    width: 175px;
+    font-size: 10pt;
+}
+
+form .submitButton { 
+    margin: 20px 0px 50px 0px;
+    padding: 10px 25px 10px 25px;
+}
+
+form label {
+    width: 200px;
+    display: inline-block;
+}
